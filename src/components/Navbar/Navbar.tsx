@@ -4,18 +4,18 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-secondary">
       <div className="container-sm">
-        <NavLink to="/admin">
-          <span className="navbar-brand">CT-9 homework </span>
+        <NavLink to="/">
+          <span className="navbar-brand">Finance Tracker </span>
         </NavLink>
         <ul className="navbar-nav mr-auto flex-row gap-2 flex-nowrap">
           <li className="nav-item">
-            <NavLink to="/admin/dishes" className="nav-link">
-              Test
+            <NavLink to="/categories" className="nav-link">
+              Categories
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/admin/orders" className="nav-link">
-              Test
+            <NavLink to="/categories" className="nav-link">
+              Add
             </NavLink>
           </li>
         </ul>
